@@ -11,7 +11,9 @@ raspberry piをeduroamに接続する方法（備忘録）
 
 ネットワークの接続情報を設定します．<br>
 ターミナルでエディタを起動します．<br>
-`$ sudo nano /etc/wpa_supplicant/wpa_supplicant.conf`<br>
+```
+$ sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+```
 以下を追加して，変更を保存します．
 ```
 network={
