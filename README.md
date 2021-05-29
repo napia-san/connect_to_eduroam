@@ -2,7 +2,7 @@
 raspberry piをeduroamに接続する方法（備忘録）
 
 最新版のraspberry pi OSではeduroamに接続できないようです．<br>
-そこで，wpa_supplicantをダウングレードすることによって接続を試みます．
+そこで，wpa_supplicantをダウングレードすることによって接続を試みます．<br>
 ＊自己責任で行ってください．
 
 ## Useage
@@ -10,8 +10,8 @@ raspberry piをeduroamに接続する方法（備忘録）
 当リポジトリ内のシェルスクリプトを実行します．
 
 ネットワークの接続情報を設定します．<br>
-ターミナルでエディタを起動します．
-`$ sudo nano /etc/wpa_supplicant/wpa_supplicant.conf`
+ターミナルでエディタを起動します．<br>
+`$ sudo nano /etc/wpa_supplicant/wpa_supplicant.conf`<br>
 以下を追加して，変更を保存します．
 ```
 network={
